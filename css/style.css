@@ -1,3 +1,62 @@
-#pic01 {
-  width: 100%;
+/*-------------------------- Mother ------------*/
+
+main, footer {
+  font-family: "Arial";
 }
+
+
+
+/*-------------------------- Mother ------------*/
+
+/*-------------------------- Header ------------*/
+
+header {
+  background-image: url("../img/header.png");
+  background-repeat: repeat;
+}
+
+header, header a strong{
+  color: white;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Oswald";
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+}
+
+nav.navbar {
+  background-color: #76CBFA;
+  font-family: "Abel";
+  width: 80%;
+  margin-bottom: 1em;
+  box-shadow:  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+
+}
+
+figure {
+  width: 80%;
+  padding: 1em;
+  background-image: url("../img/fond.png");
+  background-size: cover;
+}
+
+#pic01 {
+  max-width: 100%;
+}
+
+/*-------------------------- Header ------------*/
+
+/*-------------------------- Main ------------*/
+
+
+
+/*-------------------------- Main ------------*/
+
+
+/*-------------------------- Footer ------------*/
+
+
+
+/*-------------------------- Footer ------------*/
