@@ -4,11 +4,14 @@ main, footer {
   font-family: "Arial";
 }
 
-.container-fluid{
-width: 80%;
-margin: auto;
+.container-fluid {
+  width: 80%;
+  margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*-------------------------- Mother ------------*/
 
@@ -19,7 +22,7 @@ header {
   background-repeat: repeat;
 }
 
-header, header a strong{
+header, header a strong {
   color: white;
   font-weight: normal;
 }
@@ -36,7 +39,6 @@ nav.navbar {
   width: 90%;
   margin-bottom: 1em;
   background: linear-gradient(#76CBFA, #4A91D2);
-
 }
 
 figure {
@@ -55,42 +57,97 @@ figure {
 /*-------------------------- Header ------------*/
 
 /*-------------------------- Main ------------*/
-main{
-    padding: 0 3em;
-    background-image: url("../img/fond.png");
-    background-repeat: repeat;
+
+.bg {
+  padding: 0 3em;
+  background-image: url("../img/fond.png");
+  background-repeat: repeat;
 }
 
 #sec1 {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    text-align: left;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: left;
 }
 
-#sec2 .art1, #sec2 .art2, #sec2 .art3{
-     background-image: url("../img/bas-de-page.png");
-     background-repeat: repeat;
-     margin-top: 3em;
-     margin-bottom:  3em;
- }
+#sec1 a {
+  background: linear-gradient(#FF3D00, #FF0000);
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
+  padding: 0.6em 1em;
+}
+
+#sec2 .art1, #sec2 .art2, #sec2 .art3 {
+  background-image: url("../img/bas-de-page.png");
+  background-repeat: repeat;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 
 #sec2 img {
-    float: left;
+  float: left;
 }
 
-/* #sec2 p {
-    float: right;
-    width: 50%;
+.sec4 {
+  background-image: url("../img/footer.png");
+  background-repeat: repeat;
+  padding: 2em;
+  width: 100%;
 }
 
-h5 {
-    width: 50%; */
+.sec4 .art1 p{
+  background-image: url("../img/fond.png");
+  background-repeat: repeat;
 }
+
+footer {
+  background-image: url("../img/bas-de-page.png");
+  background-repeat: repeat;
+}
+
+#sec3 .art1 h4 {
+  color: #FF3D00;
+}
+
+#sec3 .asid1 a {
+  background: linear-gradient(#FF3D00, #FF0000);
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
+  padding: 0.6em 1em;
+}
+
+#sec3 .art1 p a {
+  color: #FF3D00;
+}
+
+#sec3 .asid2 li {
+  list-style-image: url("../img/fleche.png");
+}
+
+.pictures:nth-child(2) {
+  margin-bottom: 2em;
+}
+
+.sec4 .art3 a {
+  background: linear-gradient(#FF3D00, #FF0000);
+  border-radius: 5px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 0.6em;
+  padding: 0.6em 1em;
+}
+
 /*-------------------------- Main ------------*/
 
-
 /*-------------------------- Footer ------------*/
-
-
 
 /*-------------------------- Footer ------------*/
