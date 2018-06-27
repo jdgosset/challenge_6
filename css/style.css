@@ -4,6 +4,10 @@ main, footer {
   font-family: "Arial";
 }
 
+.container-fluid{
+width: 80%;
+margin: auto;
+}
 
 
 /*-------------------------- Mother ------------*/
@@ -29,29 +33,59 @@ h1 {
 nav.navbar {
   background-color: #76CBFA;
   font-family: "Abel";
-  width: 80%;
+  width: 90%;
   margin-bottom: 1em;
-  box-shadow:  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+  background: linear-gradient(#76CBFA, #4A91D2);
 
 }
 
 figure {
-  width: 80%;
-  padding: 1em;
+  width: 90%;
+  padding: 2em;
+  margin-bottom: 4em;
   background-image: url("../img/fond.png");
+  background-repeat: repeat;
   background-size: cover;
 }
 
 #pic01 {
-  max-width: 100%;
+  width: 100%;
 }
 
 /*-------------------------- Header ------------*/
 
 /*-------------------------- Main ------------*/
+main{
+    padding: 0 3em;
+    background-image: url("../img/fond.png");
+    background-repeat: repeat;
+}
 
+#sec1 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: left;
+}
 
+#sec2 .art1, #sec2 .art2, #sec2 .art3{
+     background-image: url("../img/bas-de-page.png");
+     background-repeat: repeat;
+     margin-top: 3em;
+     margin-bottom:  3em;
+ }
 
+#sec2 img {
+    float: left;
+}
+
+/* #sec2 p {
+    float: right;
+    width: 50%;
+}
+
+h5 {
+    width: 50%; */
+}
 /*-------------------------- Main ------------*/
 
 
